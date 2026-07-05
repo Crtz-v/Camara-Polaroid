@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cámara Polaroid Y2K</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="scene">
+    <section class="camera-wrap" aria-label="Cámara interactiva">
+      <div class="camera" id="camera">
+        <div class="camera-top">
+          <div class="viewfinder"></div>
+          <div class="flash-box"></div>
+        </div>
+
+        <div class="lens">
+          <div class="lens-glass"></div>
+        </div>
+
+        <div class="brand">Y2K CAM</div>
+        <div class="slot"></div>
+      </div>
+
+      <button class="photo-btn" id="photoBtn" type="button">Foto</button>
+
+      <div class="flash" id="flash"></div>
+
+      <div class="photo-output" id="photoOutput" aria-live="polite">
+        <img src="assets/polaroid.png" alt="Foto Polaroid revelada" />
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
